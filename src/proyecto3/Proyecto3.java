@@ -16,8 +16,17 @@ public class Proyecto3 {
      */
     public static void main(String[] args) {
         // TODO code application logic here
+       
         captura c = new captura();
         c.setBounds(10, 10, 500, 500);
         c.setVisible(true);
+        
+        captura d = new captura();
+        d.setBounds(10, 10, 500, 500);
+        d.setVisible(true);
+        
+        captura f = new captura();
+        f.setBounds(10, 10, 500, 500);
+        f.setVisible(true);
     }
 }
